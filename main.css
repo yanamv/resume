@@ -1,0 +1,110 @@
+
+          body {
+            background-image: url(res.jpg);
+            opacity: 0.85; 
+               }
+          a {color: #353433;} /* Цвет текста*/
+          a:hover {color: #000000;} /* Цвет текста*/
+          
+  
+            ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2013';
+  position: absolute;
+  margin-left: -20px;
+}
+.block { 
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 1%;
+  border: 3px dashed #353433;
+  padding: 10px
+   }
+
+   Input{ border-radius: 4px
+   }
+   Input[type="checkbox"] {cursor:pointer}
+   Input[type="radio"] {cursor:pointer}
+   Input[type="button"] {cursor:pointer;
+   color:#ffffff;  
+   background:#353433;
+   margin-left:1%;
+   border-radius: 9px;
+   
+}
+
+   Input[type="button"]:hover{ background:#666462 }
+
+   Input[type="checkbox"] {cursor:pointer}
+
+
+   .margin{
+     margin-bottom:-1%;/*отступы */
+   }
+
+  .margin2{
+    display:inline-block;
+    margin-right:1%;
+  } /*отступы */
+
+   @font-face {
+    font-family: Rubik-Regular; /* Имя шрифта */
+    src: url(Rubik-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: Rubik-Bold; /* Имя шрифта */
+    src: url(Rubik-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+
+   .resume { 
+    background:rgb(255, 255, 255);
+    padding:2%;
+    margin-top: 3%;
+    margin-bottom:3%;
+    height: 70%;
+   }
+
+   .resume { 
+    margin-left: 2%;
+    margin-right: 14%;
+    font-family: Rubik-Regular;    
+   }
+
+   h2 {
+    font-family: Rubik-Bold;
+    color:#A31621;
+   }
+
+table {
+margin-left: -2%;
+margin-top:-2%;
+text-align: left;
+border-collapse: separate;
+border-spacing: 5 px;
+color: #656665;
+border: 16px solid rgb(253, 253, 253);
+}
+
+th {
+font-size: 18px;
+padding: 10px;
+background:rgb(253, 253, 253);
+color:#656665;
+}
+tr:hover {background:#666462}
+
+
+tr {
+  background: #353433;
+  color:floralwhite;
+  padding: 10px;
+  }
+
+  
+
+ 
+            
+      
